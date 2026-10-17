@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "delegate",
+  "description": "The worker gathers. You judge.",
+  "owner": {
+    "name": "Solomon Mithra",
+    "url": "https://github.com/Solomon-mithra"
+  },
+  "plugins": [
+    {
+      "name": "delegate",
+      "description": "Hand the legwork to a cheaper model; keep the plan, the grading and the verdict.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

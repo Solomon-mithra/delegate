@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "delegate",
+  "version": "1.0.0",
+  "description": "Orchestrator/worker delegation for Claude Code: a cheaper model does the legwork, the stronger model keeps every judgement.",
+  "author": {
+    "name": "Solomon Mithra",
+    "url": "https://github.com/Solomon-mithra"
+  },
+  "homepage": "https://github.com/Solomon-mithra/delegate",
+  "repository": "https://github.com/Solomon-mithra/delegate",
+  "license": "MIT",
+  "keywords": ["delegation", "subagents", "orchestration", "evals", "qa", "cost"]
+}

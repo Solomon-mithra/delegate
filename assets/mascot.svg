@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-labelledby="t">
+  <title id="t">The Foreman: an owl in a hard hat checking a clipboard while a small robot carries the boxes</title>
+
+  <!-- card -->
+  <circle cx="240" cy="240" r="228" fill="#F4EFE6" stroke="#1F1F24" stroke-width="6"/>
+  <ellipse cx="240" cy="418" rx="170" ry="14" fill="#1F1F24" opacity="0.10"/>
+
+  <!-- ===== the worker (small, fast, cheap) ===== -->
+  <g id="worker">
+    <!-- motion lines -->
+    <g stroke="#1F1F24" stroke-width="5" stroke-linecap="round" opacity="0.35">
+      <line x1="414" y1="300" x2="440" y2="300"/>
+      <line x1="420" y1="322" x2="448" y2="322"/>
+      <line x1="414" y1="344" x2="436" y2="344"/>
+    </g>
+    <!-- wheels -->
+    <circle cx="340" cy="402" r="12" fill="#1F1F24"/>
+    <circle cx="384" cy="402" r="12" fill="#1F1F24"/>
+    <!-- body -->
+    <rect x="322" y="318" width="80" height="80" rx="16" fill="#E8663D" stroke="#1F1F24" stroke-width="5"/>
+    <!-- antenna -->
+    <line x1="362" y1="262" x2="362" y2="244" stroke="#1F1F24" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="362" cy="240" r="8" fill="#F2B632" stroke="#1F1F24" stroke-width="4"/>
+    <!-- head -->
+    <rect x="328" y="262" width="68" height="52" rx="16" fill="#FBF8F2" stroke="#1F1F24" stroke-width="5"/>
+    <path d="M346 288 q6 -8 12 0" fill="none" stroke="#1F1F24" stroke-width="5" stroke-linecap="round"/>
+    <path d="M366 288 q6 -8 12 0" fill="none" stroke="#1F1F24" stroke-width="5" stroke-linecap="round"/>
+    <!-- box it carries -->
+    <rect x="318" y="334" width="66" height="48" rx="5" fill="#D9B27C" stroke="#1F1F24" stroke-width="5"/>
+    <line x1="351" y1="334" x2="351" y2="382" stroke="#B48A55" stroke-width="6"/>
+    <!-- hands -->
+    <circle cx="318" cy="356" r="8" fill="#E8663D" stroke="#1F1F24" stroke-width="4"/>
+    <circle cx="386" cy="356" r="8" fill="#E8663D" stroke="#1F1F24" stroke-width="4"/>
+  </g>
+
+  <!-- ===== the orchestrator (owl foreman) ===== -->
+  <g id="owl">
+    <!-- feet -->
+    <path d="M150 404 l-10 14 h24 z M222 404 l-10 14 h24 z" fill="#E8A33D" stroke="#1F1F24" stroke-width="4" stroke-linejoin="round"/>
+    <!-- body -->
+    <path d="M190 160 C 268 160 290 230 286 300 C 282 372 246 410 190 410 C 134 410 98 372 94 300 C 90 230 112 160 190 160 Z"
+          fill="#3B3F58" stroke="#1F1F24" stroke-width="6"/>
+    <!-- belly -->
+    <ellipse cx="190" cy="334" rx="60" ry="70" fill="#E9DFC9"/>
+    <g fill="none" stroke="#B9AC90" stroke-width="4" stroke-linecap="round">
+      <path d="M164 312 q8 8 16 0 M200 312 q8 8 16 0"/>
+      <path d="M150 340 q8 8 16 0 M182 340 q8 8 16 0 M214 340 q8 8 16 0"/>
+      <path d="M164 368 q8 8 16 0 M200 368 q8 8 16 0"/>
+    </g>
+    <!-- face disc -->
+    <path d="M190 200 C 240 200 262 220 262 246 C 262 276 230 286 190 286 C 150 286 118 276 118 246 C 118 220 140 200 190 200 Z" fill="#4C5170"/>
+    <!-- eyes: looking toward the worker -->
+    <circle cx="158" cy="244" r="28" fill="#FFFFFF" stroke="#1F1F24" stroke-width="4"/>
+    <circle cx="222" cy="244" r="28" fill="#FFFFFF" stroke="#1F1F24" stroke-width="4"/>
+    <circle cx="166" cy="250" r="12" fill="#1F1F24"/>
+    <circle cx="230" cy="250" r="12" fill="#1F1F24"/>
+    <circle cx="170" cy="246" r="4" fill="#FFFFFF"/>
+    <circle cx="234" cy="246" r="4" fill="#FFFFFF"/>
+    <!-- one raised brow: the reviewing look -->
+    <path d="M132 210 q26 -10 50 2" fill="none" stroke="#1F1F24" stroke-width="6" stroke-linecap="round"/>
+    <path d="M200 216 q24 -4 48 6" fill="none" stroke="#1F1F24" stroke-width="6" stroke-linecap="round"/>
+    <!-- glasses -->
+    <circle cx="158" cy="244" r="33" fill="none" stroke="#C9A227" stroke-width="5"/>
+    <circle cx="222" cy="244" r="33" fill="none" stroke="#C9A227" stroke-width="5"/>
+    <line x1="186" y1="240" x2="194" y2="240" stroke="#C9A227" stroke-width="5"/>
+    <!-- beak -->
+    <path d="M182 268 h16 l-8 16 z" fill="#E8A33D" stroke="#1F1F24" stroke-width="4" stroke-linejoin="round"/>
+    <!-- hard hat -->
+    <path d="M118 186 C 118 128 262 128 262 186 Z" fill="#F2B632" stroke="#1F1F24" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="100" y="180" width="180" height="16" rx="8" fill="#F2B632" stroke="#1F1F24" stroke-width="6"/>
+    <rect x="182" y="132" width="16" height="50" rx="6" fill="#E0A21F" stroke="#1F1F24" stroke-width="4"/>
+    <!-- clipboard -->
+    <g transform="rotate(8 262 346)">
+      <rect x="222" y="292" width="84" height="108" rx="8" fill="#C98B4F" stroke="#1F1F24" stroke-width="5"/>
+      <rect x="232" y="306" width="64" height="86" rx="3" fill="#FFFFFF"/>
+      <rect x="248" y="284" width="32" height="16" rx="5" fill="#8A8F98" stroke="#1F1F24" stroke-width="4"/>
+      <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <path d="M238 322 l5 5 l9 -10" stroke="#2E9E6A" stroke-width="5"/>
+        <line x1="258" y1="322" x2="288" y2="322" stroke="#C7C2B8" stroke-width="5"/>
+        <path d="M238 344 l5 5 l9 -10" stroke="#2E9E6A" stroke-width="5"/>
+        <line x1="258" y1="344" x2="284" y2="344" stroke="#C7C2B8" stroke-width="5"/>
+        <rect x="238" y="358" width="13" height="13" rx="2" stroke="#1F1F24" stroke-width="3"/>
+        <line x1="258" y1="366" x2="288" y2="366" stroke="#C7C2B8" stroke-width="5"/>
+      </g>
+    </g>
+    <!-- wing holding the clipboard -->
+    <path d="M214 378 C 240 370 268 384 262 408 C 238 414 214 400 214 378 Z" fill="#2E3247" stroke="#1F1F24" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+</svg>
